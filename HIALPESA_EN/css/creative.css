@@ -718,6 +718,9 @@ body {
         /* = width for a 1:1 aspect ratio */
         overflow: hidden;
     }
+    .inicio{
+        flex-direction: column;
+    }
 }
 
 
@@ -729,6 +732,9 @@ body {
         padding-bottom: 50%;
         /* = width for a 1:1 aspect ratio */
         overflow: hidden;
+    }
+    .inicio{
+        flex-direction: column;
     }
 }
 
