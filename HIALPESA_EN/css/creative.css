@@ -697,6 +697,19 @@ img::-moz-selection {
 .inicio{
     flex-direction: row;
 }
+
+.m-3{
+    margin: 70px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.inicio3{
+    flex-direction: column;
+}
+.inicio2{
+    flex-direction: row;
+    justify-content: space-between;
+}
 body {
     webkit-tap-highlight-color: #222222;
 }
