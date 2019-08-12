@@ -29,6 +29,7 @@
  .align-items-center{
      align-items: center
  }
+ 
  .inicio{
      flex-direction: row;
  }
@@ -166,7 +167,7 @@
      -webkit-transition: all 0.35s;
      -moz-transition: all 0.35s;
      transition: all 0.35s;
-     margin-top: 20px
+     margin-top: 20px;
  }
  
  .navbar-brand {
@@ -348,13 +349,16 @@
      background-image: url('../img/header.jpg');
      color: white;
  }
- 
+ .clientes-header{
+     background-image: url('../img/clientes.jpg');
+     height: 500px
+ }
  .empresa-header {
      background-image: url('../img/empresa/header.jpg');
      height: 500px
  }
  .nicaragua-header{
-     background-image: url('../img/nicaragua/header.jpg');
+     background-image: url('../img/nicaragua/pn1.jpg');
      height: 500px
  }
  .servicios-header {
@@ -414,7 +418,8 @@
      .servicios-header,
      .contacto-header,
      .nicaragua-header,
-     .productos-header {
+     .productos-header,
+     .clientes-header {
          min-height: 500px
      }
      header .header-content {
@@ -764,6 +769,9 @@
      .imgwidth{
          width: 80%
      }
+     .navbar-default .nav{
+         background-color: white;
+         }
  }
  
  
@@ -782,6 +790,9 @@
      .imgwidth{
          width: 80%
      }
+     .navbar-default .nav{
+         background-color: white;
+         }
  }
  
  
