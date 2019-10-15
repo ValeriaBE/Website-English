@@ -128,7 +128,18 @@
  .orange {
      color: #F58426
  }
- 
+ .video-section{
+    margin-right: auto;
+    margin-left: auto;
+    width: 70%;
+    text-align: center;
+    /* padding-bottom: 27px;
+    padding-top: 27px; */
+}
+.video{
+    width: 80%;
+    height: 470px;
+}
  section,
  footer {
      padding: 100px 0;
@@ -745,6 +756,13 @@
  }
  
  @media (max-width: 767px) {
+    .video-section{
+        width: 90%;
+    }
+    .video{
+        width: 100%;
+        height: 315px;
+    }
      .navbar-default {
          height: 50px;
      }
